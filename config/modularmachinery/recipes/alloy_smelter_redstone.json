@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_smelter_redstone",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 600
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:ore_fluid@2",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "redstone",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:stone@0",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+[ 
+    { 
+        "mob": [
+            "touhou_little_maid:entity.monster.rinnosuke", 
+            "mysticalworld:entity_beetle",
+            "minecraft:bat",
+            "galacticraftcore:evolved_spider",
+            "galacticraftcore:evolved_zombie",
+            "galacticraftcore:evolved_creeper",
+            "galacticraftcore:evolved_skeleton",
+            "galacticraftcore:evolved_enderman",
+            "galacticraftcore:evolved_witch"
+        ],   
+        "result": "deny" 
+    }
+  ]

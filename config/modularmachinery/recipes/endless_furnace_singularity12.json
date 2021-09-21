@@ -1,0 +1,43 @@
+{
+    "machine": "endless_furnace",
+    "registryName": "endless_furnace_singularity12",
+    "recipeTime": 600,
+    "requirements": [
+		{
+		    "type": "fluid",
+            "io-type": "input",
+            "fluid": "deuterium",
+            "amount": 500
+		},
+		{
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "ore:ingotCosmicNeutronium",
+            "amount": 1,
+			"chance": 0.9
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "avaritia:singularity@0",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "avaritia:singularity@5",
+            "amount": 5
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "avaritia:singularity@12",
+            "amount": 1
+        }
+    ]
+}

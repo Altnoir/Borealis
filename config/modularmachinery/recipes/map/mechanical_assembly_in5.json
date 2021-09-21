@@ -1,0 +1,36 @@
+{
+    "machine": "mechanical_assembly_plant",
+    "registryName": "mechanical_assembly_in5",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockinputbus@5",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockinputbus@4",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 11
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "storagedrawers:upgrade_storage@3",
+            "amount": 1
+        }
+    ]
+}

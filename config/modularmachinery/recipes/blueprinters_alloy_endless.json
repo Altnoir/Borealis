@@ -1,0 +1,41 @@
+{
+    "machine": "blueprinters",
+    "registryName": "blueprinters_alloy_endless",
+    "recipeTime": 200,
+    "requirements": [ 
+        {
+		    "type": "fluid",
+            "io-type": "input",
+            "fluid": "ic2uu_matter",
+            "amount": 1000
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting",
+            "amount": 32,
+			"chance": 0.5
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+			"item": "enderio:item_material@77",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "minecraft:dye@14",
+            "amount": 3
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:itemblueprint",
+            "amount": 1,
+			"nbt": {
+            "dynamicmachine": "modularmachinery:endless_furnace"
+            }
+        }
+    ]
+}

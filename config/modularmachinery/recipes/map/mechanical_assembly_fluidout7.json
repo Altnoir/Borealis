@@ -1,0 +1,36 @@
+{
+    "machine": "mechanical_assembly_plant",
+    "registryName": "mechanical_assembly_fluidout7",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 40
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockfluidoutputhatch@7",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockfluidoutputhatch@6",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 15
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_tank@1",
+            "amount": 1
+        }
+    ]
+}

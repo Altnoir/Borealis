@@ -1,0 +1,65 @@
+{
+    "machine": "endless_furnace",
+    "registryName": "endless_furnace_resource4",
+    "recipeTime": 1200,
+    "requirements": [
+        {
+		    "type": "fluid",
+            "io-type": "input",
+            "fluid": "oil",
+            "amount": 1000
+		},
+		{
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 12800
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+			"item": "enderio:item_alloy_endergy_ingot@3",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "extrabotany:material@1",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "futuremc:nautilus_shell",
+            "amount": 1,
+			"chance": 0.5
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "nuclearcraft:alloy@1",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "avaritia:resource@3",
+            "amount": 9
+        },
+		{
+        "type": "item",
+        "io-type": "input",
+        "item": "forge:bucketfilled",
+        "amount": 1,
+        "nbt": {
+            "FluidName": "lifeessence",
+            "Amount": "1000"
+            }
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "avaritia:resource@4",
+            "amount": 1
+        }
+    ]
+}

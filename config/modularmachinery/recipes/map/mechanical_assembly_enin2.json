@@ -1,0 +1,30 @@
+{
+    "machine": "mechanical_assembly_plant",
+    "registryName": "mechanical_assembly_enin2",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockenergyinputhatch@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockenergyinputhatch@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:metal_device0@1",
+            "amount": 1
+        }
+    ]
+}

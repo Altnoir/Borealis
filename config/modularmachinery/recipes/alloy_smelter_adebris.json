@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_smelter_adebris",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 800
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "futuremc:ancient_debris@0",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 8000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "railcraft:ore_magic@0",
+            "amount": 1
+        }
+    ]
+}

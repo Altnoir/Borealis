@@ -1,0 +1,40 @@
+{
+    "machine": "blueprinters",
+    "registryName": "blueprinters_alloy_furnace",
+    "recipeTime": 200,
+    "requirements": [ 
+        {
+		    "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+		},
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+			"item": "enderio:item_material@77",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+			"item": "minecraft:dye@14",
+            "amount": 3
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:itemblueprint",
+            "amount": 1,
+			"nbt": {
+            "dynamicmachine": "modularmachinery:alloy_furnace"
+            }
+        }
+    ]
+}

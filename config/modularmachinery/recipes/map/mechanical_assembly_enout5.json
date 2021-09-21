@@ -1,0 +1,30 @@
+{
+    "machine": "mechanical_assembly_plant",
+    "registryName": "mechanical_assembly_enout5",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockenergyoutputhatch@5",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockenergyoutputhatch@4",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_cap_bank@1",
+            "amount": 1
+        }
+    ]
+}
