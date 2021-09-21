@@ -1,0 +1,15 @@
+RandomModpack-0.5版本更新
+整合包名字更改为：Polaris(北极星)
+
+增加新手引导手册。
+增加新手引导任务。
+增加游戏物品阶段。
+增加模块化机械。
+增加全新开场游戏动画；增加全新游戏载入界面，增加全新游戏菜单。
+
+大量平衡性调整。
+GUI界面优化。
+游戏内存优化。
+
+等......
+https://github.com/RisingInIris2017/Blessed-Or-Cursed-Minecraft-Modpack/blob/e510f59c54e3448e017de176090a342418b97cfc/scripts/Events/Event_HuntingAltar.zs
