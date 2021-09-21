@@ -1,0 +1,158 @@
+{
+    "images": {
+        "title": {
+            "image": "polaris:mainmenu/banner.png",
+            "posX": -125,
+            "posY": 35,
+            "width": 252,
+            "height": 90,
+            "alignment": "top_center"
+        }
+    },
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": -100,
+            "posY": 58,
+            "width": 200,
+            "height": 20,
+            "imageWidth": 1198,
+            "imageHeight": 124,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "texture": "polaris:mainmenu/longbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": -100,
+            "posY": 82,
+            "width": 200,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 1198,
+            "imageHeight": 124,
+            "texture": "polaris:mainmenu/longbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "fml.menu.mods",
+            "posX": -100,
+            "posY": 118,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "polaris:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "languages": {
+            "text": "polaris.menu.languages",
+            "posX": 2,
+            "posY": 118,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "polaris:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui" : "languages"
+            }
+        },
+        "options": {
+            "text": "polaris.menu.options",
+            "posX": -100,
+            "posY": 142,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "polaris:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "posX": 2,
+            "posY": 142,
+            "width": 98,
+            "height": 20,
+            "hoverTextColor": 65484,
+            "clickSound": "block.lever.click",
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "texture": "polaris:mainmenu/shortbuttonhd.png",
+            "action": {
+                "type": "quit"
+            }
+        }
+    },
+    "labels": {
+        "mojang": {
+            "text": "Copyright Mojang AB. Do not distribute!",
+            "color": -1,
+            "alignment": "bottom_right",
+            "posX": -2,
+            "posY": -10,
+            "anchor": "end",
+            "action": {
+                "type": "openGui",
+                "gui": "credits"
+            }
+        },
+        "minecraft_version": {
+			"alignment": "bottom_left",
+            "text": "Minecraft #mcversion#",
+            "color": -1,
+            "posX": 2,
+            "posY": -40
+        },
+        "Minecraft_Coder_Pack": {
+			"alignment": "bottom_left",
+            "text": "MCP #mcpversion#",
+            "color": -1,
+            "posX": 2,
+            "posY": -30
+        },
+        "forge": {
+			"alignment": "bottom_left",
+            "text": "Forge #forgeversion#",
+            "color": -1,
+            "posX": 2,
+            "posY": -20
+        },
+        "mod": {
+            "alignment": "bottom_left",
+			"text": "#modsloaded# Mod Loaded. #modsactive# Mod Active",
+            "color": -1,
+            "posX": 2,
+            "posY": -10
+        }
+    },
+    "other": {
+        "background":{
+            "image": "polaris:backgrounds/bg.png",
+            "mode": "fill",
+            "sync": true
+        }
+    }
+}
