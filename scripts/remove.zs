@@ -6,6 +6,7 @@ import crafttweaker.item.IIngredient;
 
 //remove
 val removeRecipes as IItemStack[] = [
+<tconstruct:smeltery_controller>,
 <primal_tech:bone_sword>,
 <primal_tech:bone_pickaxe>,
 <primal_tech:bone_shovel>,
@@ -117,6 +118,7 @@ for input in removeRecipes {
 recipes.remove(input);
 }
 
+furnace.remove(<immersiveengineering:metal>);
 furnace.remove(<rustic:beeswax>);
 furnace.remove(<mekanism:ingot:1>);
 
