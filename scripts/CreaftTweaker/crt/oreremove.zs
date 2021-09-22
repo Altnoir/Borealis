@@ -12,6 +12,9 @@
 <ore:string>.remove(<mysticalworld:silk_thread>);
 <ore:slimeball>.remove(<fossil:failuresaurus_flesh>);
 <ore:slimeball>.remove(<fossil:tardrop>);
+<ore:slimeball>.remove(<fossil:tardrop>);
+<ore:crystalCrudeOil>.remove(<thermalfoundation:material:892>);
+<ore:clathrateOil>.remove(<thermalfoundation:material:892>);
 //ingot
 <ore:ingotCopper>.remove(<nuclearcraft:ingot>);
 <ore:ingotCopper>.remove(<embers:ingot_copper>);

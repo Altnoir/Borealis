@@ -36,7 +36,16 @@ hide(<embers:plate_gold>);
 hide(<embers:plate_copper>);
 hide(<embers:plate_lead>);
 hide(<embers:plate_silver>);
+hide(<buildcraftlib:guide_note>);
+hide(<buildcraftlib:debugger>);
+hide(<buildcraftbuilders:frame>);
+hide(<thermalfoundation:material:892>);
+hide(<thermalfoundation:material:833>);
+hide(<thermalfoundation:ore_fluid>);
+hide(<thermalfoundation:ore_fluid:5>);
+hide(<thermalfoundation:ore_fluid:1>);
 
+mods.jei.JEI.removeAndHide(<buildcraftlib:guide>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:metal>);
 mods.jei.JEI.removeAndHide(<embers:nugget_copper>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:metal:20>);
