@@ -1,4 +1,4 @@
-#priority 10
+#priority 100
 import mods.jei.JEI.hide;
 
 hide(<primal_tech:bone_sword>);
@@ -19,3 +19,54 @@ hide(<chambers:compact_chamber>);
 hide(<chambers:big_compact_chamber>);
 hide(<chambers:anvil_chamber>);
 hide(<chambers:soul_anvil_chamber>);
+hide(<nuclearcraft:ingot>);
+hide(<nuclearcraft:ingot:1>);
+hide(<nuclearcraft:ingot:2>);
+hide(<nuclearcraft:dust>);
+hide(<nuclearcraft:dust:1>);
+hide(<nuclearcraft:dust:2>);
+hide(<immersiveengineering:metal:9>);
+hide(<mysticalworld:copper_nugget>);
+hide(<embers:ingot_lead>);
+hide(<embers:ingot_silver>);
+hide(<embers:nugget_lead>);
+hide(<embers:nugget_silver>);
+hide(<embers:plate_iron>);
+hide(<embers:plate_gold>);
+hide(<embers:plate_copper>);
+hide(<embers:plate_lead>);
+hide(<embers:plate_silver>);
+
+mods.jei.JEI.removeAndHide(<immersiveengineering:metal>);
+mods.jei.JEI.removeAndHide(<embers:nugget_copper>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:metal:20>);
+mods.jei.JEI.removeAndHide(<mekanism:nugget:5>);
+mods.jei.JEI.removeAndHide(<embers:ingot_copper>);
+mods.jei.JEI.removeAndHide(<mekanism:ingot:5>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:3>);
+//tool
+mods.jei.JEI.removeAndHide(<embers:pickaxe_copper>);
+mods.jei.JEI.removeAndHide(<embers:axe_copper>);
+mods.jei.JEI.removeAndHide(<embers:shovel_copper>);
+mods.jei.JEI.removeAndHide(<embers:hoe_copper>);
+mods.jei.JEI.removeAndHide(<embers:sword_copper>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_silver>);
+mods.jei.JEI.removeAndHide(<embers:axe_silver>);
+mods.jei.JEI.removeAndHide(<embers:shovel_silver>);
+mods.jei.JEI.removeAndHide(<embers:hoe_silver>);
+mods.jei.JEI.removeAndHide(<embers:sword_silver>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_lead>);
+mods.jei.JEI.removeAndHide(<embers:axe_lead>);
+mods.jei.JEI.removeAndHide(<embers:shovel_lead>);
+mods.jei.JEI.removeAndHide(<embers:hoe_lead>);
+mods.jei.JEI.removeAndHide(<embers:sword_lead>);
+mods.jei.JEI.removeAndHide(<embers:pickaxe_dawnstone>);
+mods.jei.JEI.removeAndHide(<embers:axe_dawnstone>);
+mods.jei.JEI.removeAndHide(<embers:shovel_dawnstone>);
+mods.jei.JEI.removeAndHide(<embers:hoe_dawnstone>);
+mods.jei.JEI.removeAndHide(<embers:sword_dawnstone>);
+//流体
+hide(<liquid:constantan>);
+
+//隐藏类别
+mods.jei.JEI.hideCategory("roots.loot");
