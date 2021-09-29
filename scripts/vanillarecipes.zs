@@ -16,12 +16,8 @@ recipes.addShaped(<minecraft:golden_apple:1>, [[<ore:blockGold>, <ore:blockGold>
 recipes.addShapeless(<minecraft:ice> * 9, [<biomesoplenty:hard_ice>]);
 recipes.addShaped(<minecraft:packed_ice>, [[<ore:ice>, <ore:ice>, <ore:ice>],[<ore:ice>, <ore:ice>, <ore:ice>], [<ore:ice>, <ore:ice>, <ore:ice>]]);
 recipes.addShapeless(<minecraft:string> * 2, [<teastory:straw_rope>,<teastory:straw_rope>,<teastory:straw_rope>,<teastory:straw_rope>]);
-recipes.addShapeless(<minecraft:sand> * 4, [<minecraft:gravel>,<minecraft:gravel>,<minecraft:dye:15>,<minecraft:gravel>,<minecraft:gravel>]);
 recipes.addShaped(<minecraft:totem_of_undying>, [[<minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>],[<minecraft:emerald_block>, <minecraft:golden_apple:1>, <minecraft:emerald_block>], [<minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>]]);
 recipes.addShaped(<minecraft:shulker_shell>, [[<minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit_popped>],[<minecraft:chorus_fruit_popped>, <minecraft:ender_pearl>, <minecraft:chorus_fruit_popped>], [null, null, null]]);
-
-//原始科技
-recipes.addShapedMirrored(<primal_tech:bone_shard> * 3, [[<ore:bone>, null],[null, <ore:bone>]]);
 
 //刷怪蛋
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "futuremc:panda"}}), [[<ore:cropBamboo>, <ore:cropBamboo>, <ore:cropBamboo>],[<ore:cropBamboo>, <minecraft:spawn_egg>, <ore:cropBamboo>], [<ore:cropBamboo>, <ore:cropBamboo>, <ore:cropBamboo>]]);
@@ -39,14 +35,22 @@ recipes.addShapedMirrored(<futuremc:soul_fire_torch> * 4, [[null, <ore:charcoal>
 recipes.addShapedMirrored(<futuremc:soul_fire_torch> * 4, [[null, <ore:coal>, null],[null, <ore:stickWood>, null], [null, <futuremc:soul_soil>, null]]);
 recipes.addShapedMirrored(<futuremc:soul_fire_torch> * 4, [[null, <ore:charcoal>, null],[null, <ore:stickWood>, null], [null, <ore:soulSand>, null]]);
 recipes.addShapedMirrored(<futuremc:soul_fire_torch> * 4, [[null, <ore:coal>, null],[null, <ore:stickWood>, null], [null, <ore:soulSand>, null]]);
-recipes.addShapedMirrored(<futuremc:banner_pattern:4>, [[<ore:paper>, <ore:grass>, null],[null, null, null], [null, null, null]]);
-recipes.addShapedMirrored(<futuremc:banner_pattern:3>, [[<ore:paper>, <minecraft:golden_apple:1>, null],[null, null, null], [null, null, null]]);
-recipes.addShapedMirrored(<futuremc:banner_pattern:2>, [[<ore:paper>, <minecraft:skull:1>, null],[null, null, null], [null, null, null]]);
-recipes.addShapedMirrored(<futuremc:banner_pattern:1>, [[<ore:paper>, <minecraft:skull:4>, null],[null, null, null], [null, null, null]]);
-recipes.addShapedMirrored(<futuremc:banner_pattern>, [[<ore:paper>, <minecraft:red_flower:8>, null],[null, null, null], [null, null, null]]);
-recipes.addShapedMirrored(<futuremc:honey_block>, [[<rustic:honeycomb>, <rustic:honeycomb>, null],[<rustic:honeycomb>, <rustic:honeycomb>, null], [null, null, null]]);
+recipes.addShapedMirrored(<futuremc:banner_pattern:4>, [[<ore:paper>, <ore:grass>],[null, null]]);
+recipes.addShapedMirrored(<futuremc:banner_pattern:3>, [[<ore:paper>, <minecraft:golden_apple:1>],[null, null]]);
+recipes.addShapedMirrored(<futuremc:banner_pattern:2>, [[<ore:paper>, <minecraft:skull:1>],[null, null]]);
+recipes.addShapedMirrored(<futuremc:banner_pattern:1>, [[<ore:paper>, <minecraft:skull:4>],[null, null]]);
+recipes.addShapedMirrored(<futuremc:banner_pattern>, [[<ore:paper>, <minecraft:red_flower:8>],[null, null]]);
+recipes.addShapedMirrored(<futuremc:honey_block>, [[<rustic:honeycomb>, <rustic:honeycomb>],[<rustic:honeycomb>, <rustic:honeycomb>]]);
 recipes.addShapeless(<futuremc:soul_soil>, [<ore:soulSand>]);
+recipes.addShapeless(<rustic:honeycomb> * 4, [<futuremc:honey_block>]);
 recipes.addShaped(<futuremc:bell>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, null, <ore:ingotGold>]]);
+
+//等价交换
+recipes.addShaped(<projecte:relay_mk1>, [[<ore:obsidian>, <projecte:item.pe_fuel>, <ore:obsidian>],[<ore:obsidian>, <ore:blockDiamond>, <ore:obsidian>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+recipes.addShaped(<projecte:item.pe_matter:1>, [[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>],[<projecte:item.pe_matter>, <projecte:item.pe_fuel:2>, <projecte:item.pe_matter>], [<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>]]);
+recipes.addShaped(<projectex:energy_link>, [[null, <ore:pestleStone>, null],[<ore:pestleStone>, <projecte:item.pe_matter:1>, <ore:pestleStone>], [null, <ore:pestleStone>, null]]);
+recipes.addShaped(<projectex:personal_link>, [[<projecte:matter_block:1>, <projectex:energy_link>, <projecte:matter_block:1>],[<projectex:energy_link>, <appliedenergistics2:controller>, <projectex:energy_link>], [<projecte:matter_block:1>, <projectex:energy_link>, <projecte:matter_block:1>]]);
+recipes.addShaped(<projecte:collector_mk1>, [[<ore:blockGlowstone>, <projecte:item.pe_fuel>, <ore:blockGlowstone>],[<ore:blockGlowstone>, <ore:blockDiamond>, <ore:blockGlowstone>], [<ore:blockGlowstone>, <minecraft:furnace>, <ore:blockGlowstone>]]);
 
 //更多生物群系
 recipes.addShapeless(<biomesoplenty:mud>, [<ore:listAllwater>,<ore:dirt>]);
@@ -116,34 +120,12 @@ recipes.addShaped(<enderio:block_enchanter>, [[null, <minecraft:book>, null],[<o
 recipes.addShaped(<enderio:item_material> * 4, [[<minecraft:iron_bars>, <ore:ingotSteel>, <minecraft:iron_bars>],[<ore:ingotSteel>, <ore:dustBedrock>, <ore:ingotSteel>], [<minecraft:iron_bars>, <embers:winding_gears>, <minecraft:iron_bars>]]);
 recipes.addShaped(<enderio:item_material:66> * 2, [[<enderio:block_end_iron_bars>, <ore:ingotEndSteel>, <enderio:block_end_iron_bars>],[<ore:ingotEndSteel>, <ore:dustBedrock>, <ore:ingotEndSteel>], [<enderio:block_end_iron_bars>, <embers:winding_gears>, <enderio:block_end_iron_bars>]]);
 
-//洲际导弹
-recipes.addShaped(<icbmclassic:battery>, [[<ore:alloyBasic>, <ore:ingotCopper>, <ore:alloyBasic>],[<ore:plateTin>, <ore:ingotLithium>, <ore:plateTin>], [<ore:dustSulfur>, <ore:ingotLithium>, <ore:dustSulfur>]]);
-recipes.addShaped(<icbmclassic:explosives:18>, [[<futuremc:blue_ice>, <minecraft:snow>, <futuremc:blue_ice>],[<minecraft:snow>, <icbmclassic:explosives:7>, <minecraft:snow>], [<futuremc:blue_ice>, <minecraft:snow>, <futuremc:blue_ice>]]);
-recipes.addShaped(<icbmclassic:explosives:21>, [[null, null, null],[<icbmclassic:explosives:10>, <ore:ingotUnstable>, <icbmclassic:explosives:10>], [null, null, null]]);
-recipes.addShaped(<icbmclassic:explosives:16>, [[<ore:wireElectrum>, <ore:wireElectrum>, <ore:wireElectrum>],[<icbmclassic:battery>, <icbmclassic:explosives:6>, <icbmclassic:battery>], [<ore:circuitElite>, <icbmclassic:battery>, <ore:circuitElite>]]);
-recipes.addShaped(<icbmclassic:explosives:17>, [[<icbmclassic:explosives:2>, <icbmclassic:explosives:2>, <icbmclassic:explosives:2>],[<icbmclassic:explosives:2>, <ore:netherStar>, <icbmclassic:explosives:2>], [<icbmclassic:explosives:2>, <icbmclassic:explosives:2>, <icbmclassic:explosives:2>]]);
-recipes.addShaped(<icbmclassic:explosives:2>, [[<ore:dustSulfur>, <ore:dustSulfur>, <ore:dustSulfur>],[<ore:dustSulfur>, <icbmclassic:explosives:1>, <ore:dustSulfur>], [<ore:dustSulfur>, <tconstruct:materials:11>, <ore:dustSulfur>]]);
-recipes.addShaped(<icbmclassic:explosives:13>, [[<icbmclassic:explosives:4>, <icbmclassic:explosives:2>, <icbmclassic:explosives:4>],[<icbmclassic:explosives:2>, <botania:manabomb>, <icbmclassic:explosives:2>], [<icbmclassic:explosives:4>, <icbmclassic:explosives:2>, <icbmclassic:explosives:4>]]);
-recipes.addShaped(<icbmclassic:missile:24>, [[null, <ore:ingotDarkSteel>, null],[<ore:ingotDarkSteel>, <ore:blockRedstone>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <minecraft:egg>, <ore:ingotDarkSteel>]]);
-recipes.addShapedMirrored(<icbmclassic:explosives:7>, [[null, <icbmclassic:explosives>, null],[null, <ore:runeWinterB>, null], [null, <icbmclassic:explosives>, null]]);
-recipes.addShapedMirrored(<icbmclassic:explosives:6>, [[null, <icbmclassic:explosives>, null],[null, <ore:runeSummerB>, null], [null, <icbmclassic:explosives>, null]]);
-recipes.addShaped(<icbmclassic:explosives:23>, [[<extrautils2:decorativesolid:8>, <ore:netherStar>, <extrautils2:decorativesolid:8>],[<ore:netherStar>, <icbmclassic:explosives:22>, <ore:netherStar>], [<extrautils2:decorativesolid:8>, <ore:netherStar>, <extrautils2:decorativesolid:8>]]);
-recipes.addShaped(<icbmclassic:explosives:22>, [[null, <ore:ingotInfinity>, null],[<ore:ingotInfinity>, <icbmclassic:explosives:15>, <ore:ingotInfinity>], [null, <ore:ingotInfinity>, null]]);
-recipes.addShaped(<icbmclassic:explosives:15>, [[<icbmclassic:explosives:13>, <trinity:compression_charge>, <icbmclassic:explosives:13>],[<trinity:compression_charge>, <ore:sphereUranium235>, <trinity:compression_charge>], [<icbmclassic:explosives:13>, <trinity:compression_charge>, <icbmclassic:explosives:13>]]);
-recipes.addShapeless(<icbmclassic:poisonpowder> * 3, [<minecraft:spider_eye>,<minecraft:rotten_flesh>,<ore:nuggetUranium>]);
-recipes.addShaped(<icbmclassic:launcherscreen:2>, [[<ore:ingotSteel>, <icbmclassic:launcherscreen:1>, <ore:ingotSteel>],[<ore:ingotSteel>, <ore:circuitElite>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:wireElectrum>, <ore:ingotSteel>]]);
-recipes.addShaped(<icbmclassic:emptower>, [[<ore:plateSteel>, <ore:wireElectrum>, <ore:plateSteel>],[<icbmclassic:battery>, <ore:circuitUltimate>, <icbmclassic:battery>], [<ore:plateSteel>, <ore:alloyBasic>, <ore:plateSteel>]]);
-
 //匠魂2
 recipes.addShapeless(<tconstruct:throwball:1>, [<ore:itemFlint>,<minecraft:tnt>,<minecraft:gunpowder>]);
 recipes.addShapeless(<tconstruct:soil> * 16, [<minecraft:gravel>,<minecraft:sand>,<minecraft:gravel>,<minecraft:sand>,<embers:blend_caminite>,<minecraft:sand>,<minecraft:gravel>,<minecraft:sand>,<minecraft:gravel>]);
 
 //余烬
 recipes.addShaped(<embers:tinker_hammer>, [[<ore:ingotSteel>, <ore:ingotDawnstone>, <ore:ingotSteel>],[<ore:ingotSteel>, <immersiveengineering:material>, <ore:ingotSteel>], [null, <immersiveengineering:material>, null]]);
-
-//考古与化石
-recipes.addShaped(<fossil:analyzer>, [[<ore:ingotIron>, <fossil:biofossil>, <ore:ingotIron>],[<ore:ingotIron>, <fossil:relic_scrap>, <ore:ingotIron>], [<ore:alloyBasic>, <minecraft:repeater>, <ore:alloyBasic>]]);
-recipes.addShaped(<fossil:sifter>, [[<teastory:straw_rope>, <ore:plankWood>, <teastory:straw_rope>],[<ore:plankWood>, <ore:barsIron>, <ore:plankWood>], [<ore:plankWood>, <teastory:straw_rope>, <ore:plankWood>]]);
 
 //沉浸工程
 recipes.addShaped(<immersiveengineering:metal_decoration1:5> * 8, [[<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],[null, <enderio:item_material>, null], [<ore:stickAluminum>, <ore:stickAluminum>, <ore:stickAluminum>]]);
@@ -161,11 +143,7 @@ recipes.addShaped(<extrabotany:coregod>, [[<botania:quartz:6>, <botania:manareso
 recipes.addShapeless(<extrabotany:specialbag> * 10, [<avaritia:resource:6>]);
 
 //根源魔法
-recipes.addShaped(<roots:fey_crafter>, [[<ore:treeSapling>, <teastory:straw>, <ore:treeSapling>],[<roots:terra_moss>, <ore:treeSapling>, <roots:wildroot>], [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]]);
-
-//三位一体
-recipes.addShaped(<trinity:bomb_custom_4>, [[<trinity:compression_charge>, <trinity:compression_charge>, <trinity:compression_charge>],[<trinity:compression_charge>, <trinity:core_custom_4>, <trinity:compression_charge>], [<trinity:compression_charge>, <trinity:compression_charge>, <trinity:compression_charge>]]);
-recipes.addShaped(<trinity:core_custom_4>, [[<ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>],[<ore:ingotTough>, <ore:blockInfinity>, <ore:ingotTough>], [<ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>]]);
+recipes.addShaped(<roots:fey_crafter>, [[<ore:treeSapling>, <ore:petalGreen>, <ore:treeSapling>],[<roots:terra_moss>|<roots:wildroot>, <ore:treeSapling>, <roots:wildroot>|<roots:terra_moss>], [<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]]);
 
 //嘿实用
 recipes.addShapedMirrored(<darkutils:trap_move> * 8, [[null, null, null],[<ore:ingotIron>, <ore:slimeball>, <ore:ingotIron>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
@@ -193,7 +171,6 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tn
 recipes.addShaped(<extrautils2:machine> * 4, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],[<ore:dustRedstone>, <embers:mech_core>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<extrautils2:quarryproxy>, [[<minecraft:end_stone>, null, <minecraft:end_stone>],[<minecraft:end_stone>, <appliedenergistics2:material:48>, <minecraft:end_stone>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
 recipes.addShaped(<extrautils2:pipe> * 8, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>],[<ore:alloyBasic>, <embers:item_pipe>, <ore:alloyBasic>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
-furnace.addRecipe(<extrautils2:decorativesolid:4>, <trinity:solid_trinitite>, 0.1);
 recipes.addShaped(<extrautils2:spike_creative> * 4, [[null, null, null],[null, <avaritia:resource:6>, null], [<avaritia:resource:6>, <avaritia:block_resource:1>, <avaritia:resource:6>]]);
 recipes.addShapedMirrored(<extrautils2:passivegenerator:1> * 3, [[null, null, null],[<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>], [<extrautils2:decorativesolid:3>, <ore:gemRedstone>, <extrautils2:decorativesolid:3>]]);
 recipes.addShapedMirrored(<extrautils2:passivegenerator> * 3, [[null, null, null],[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<extrautils2:decorativesolid:3>, <ore:gemRedstone>, <extrautils2:decorativesolid:3>]]);
