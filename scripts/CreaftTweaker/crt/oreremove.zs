@@ -10,11 +10,10 @@
 <ore:stickWood>.remove(<cuisine:bamboo>);
 <ore:string>.remove(<primal_tech:twine>);
 <ore:string>.remove(<mysticalworld:silk_thread>);
-<ore:slimeball>.remove(<fossil:failuresaurus_flesh>);
-<ore:slimeball>.remove(<fossil:tardrop>);
-<ore:slimeball>.remove(<fossil:tardrop>);
 <ore:crystalCrudeOil>.remove(<thermalfoundation:material:892>);
 <ore:clathrateOil>.remove(<thermalfoundation:material:892>);
+<ore:crystalSlag>.remove(<thermalfoundation:material:864>);
+<ore:itemSlag>.remove(<thermalfoundation:material:864>);
 //ingot
 <ore:ingotCopper>.remove(<nuclearcraft:ingot>);
 <ore:ingotCopper>.remove(<embers:ingot_copper>);
