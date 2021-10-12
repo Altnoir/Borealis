@@ -1,3 +1,4 @@
 #priority 100
+import mods.initialinventory.InvHandler.addStartingItem;
 
-mods.initialinventory.InvHandler.addStartingItem(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:polaris"}));
+addStartingItem(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:polaris"}));

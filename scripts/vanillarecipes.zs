@@ -4,7 +4,6 @@
 //原版
 furnace.addRecipe(<minecraft:gunpowder>, <minecraft:gravel>, 0.1);
 furnace.addRecipe(<minecraft:end_portal_frame>, <avaritia:block_resource:1>, 30);
-furnace.addRecipe(<minecraft:iron_block>, <minecraft:egg>, 9);
 recipes.addShaped(<minecraft:stone_hoe>, [[<primal_tech:flint_block>, <primal_tech:flint_block>, null],[null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<minecraft:stone_shovel>, [[null, <primal_tech:flint_block>, null],[null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<minecraft:stone_axe>, [[<primal_tech:flint_block>, <primal_tech:flint_block>, null],[<primal_tech:flint_block>, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
@@ -45,13 +44,6 @@ recipes.addShapeless(<futuremc:soul_soil>, [<ore:soulSand>]);
 recipes.addShapeless(<rustic:honeycomb> * 4, [<futuremc:honey_block>]);
 recipes.addShaped(<futuremc:bell>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, null, <ore:ingotGold>]]);
 
-//等价交换
-recipes.addShaped(<projecte:relay_mk1>, [[<ore:obsidian>, <projecte:item.pe_fuel>, <ore:obsidian>],[<ore:obsidian>, <ore:blockDiamond>, <ore:obsidian>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
-recipes.addShaped(<projecte:item.pe_matter:1>, [[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>],[<projecte:item.pe_matter>, <projecte:item.pe_fuel:2>, <projecte:item.pe_matter>], [<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>]]);
-recipes.addShaped(<projectex:energy_link>, [[null, <ore:pestleStone>, null],[<ore:pestleStone>, <projecte:item.pe_matter:1>, <ore:pestleStone>], [null, <ore:pestleStone>, null]]);
-recipes.addShaped(<projectex:personal_link>, [[<projecte:matter_block:1>, <projectex:energy_link>, <projecte:matter_block:1>],[<projectex:energy_link>, <appliedenergistics2:controller>, <projectex:energy_link>], [<projecte:matter_block:1>, <projectex:energy_link>, <projecte:matter_block:1>]]);
-recipes.addShaped(<projecte:collector_mk1>, [[<ore:blockGlowstone>, <projecte:item.pe_fuel>, <ore:blockGlowstone>],[<ore:blockGlowstone>, <ore:blockDiamond>, <ore:blockGlowstone>], [<ore:blockGlowstone>, <minecraft:furnace>, <ore:blockGlowstone>]]);
-
 //更多生物群系
 recipes.addShapeless(<biomesoplenty:mud>, [<ore:listAllwater>,<ore:dirt>]);
 recipes.addShapeless(<biomesoplenty:grass:5>, [<botania:grassseeds>,<ore:grass>]);
@@ -71,12 +63,6 @@ recipes.addShapeless(<twilightforest:castle_rune_brick:3>, [<twilightforest:cast
 recipes.addShapeless(<twilightforest:castle_rune_brick:2>, [<twilightforest:castle_brick>,<botania:rune:12>,<botania:rune:6>,<twilightforest:castle_brick>]);
 recipes.addShapeless(<twilightforest:castle_rune_brick>, [<twilightforest:castle_brick>,<botania:rune:9>,<botania:rune:8>,<twilightforest:castle_brick>]);
 recipes.addShaped(<twilightforest:uncrafting_table>, [[<avaritia:extreme_crafting_table>, <avaritia:extreme_crafting_table>, <avaritia:extreme_crafting_table>],[<avaritia:extreme_crafting_table>, <twilightforest:maze_map_focus>, <avaritia:extreme_crafting_table>], [<avaritia:extreme_crafting_table>, <avaritia:extreme_crafting_table>, <avaritia:extreme_crafting_table>]]);
-
-//核电工艺
-recipes.addShaped(<nuclearcraft:water_source>, [[<nuclearcraft:part>, <ore:ingotTin>, <nuclearcraft:part>],[<ore:listAllwater>, null, <ore:listAllwater>], [<nuclearcraft:part>, <ore:ingotTin>, <nuclearcraft:part>]]);
-recipes.addShaped(<nuclearcraft:part:10>, [[<ore:ingotLead>, <ore:ingotSteel>, <ore:ingotLead>],[<ore:ingotSteel>, <ore:itemMachineChassi>, <ore:ingotSteel>], [<ore:ingotLead>, <ore:ingotSteel>, <ore:ingotLead>]]);
-recipes.addShaped(<nuclearcraft:cobblestone_generator>, [[<nuclearcraft:part>, <ore:ingotTitanium>, <nuclearcraft:part>],[null, null, null], [<nuclearcraft:part>, <ore:ingotTitanium>, <nuclearcraft:part>]]);
-recipes.addShaped(<nuclearcraft:alloy_furnace_idle>, [[<nuclearcraft:part>, <minecraft:redstone>, <nuclearcraft:part>],[<extrabotany:material:5>, <enderio:item_material:1>, <extrabotany:material:5>], [<nuclearcraft:part>, <nuclearcraft:part:4>, <nuclearcraft:part>]]);
 
 //应用能源2
 furnace.addRecipe(<appliedenergistics2:material:5>, <extrautils2:compressedsand>, 0.1);
@@ -178,6 +164,3 @@ recipes.addShaped(<extrautils2:passivegenerator:7>, [[null, null, null],[null, <
 
 //车万女仆
 recipes.addShaped(<touhou_little_maid:hakurei_gohei>, [[null, null, <ore:gemAquamarine>],[null, <ore:stickWood>, <ore:paper>], [<ore:stickWood>, null, <ore:paper>]]);
-
-//通用机械
-recipes.addShaped(<mekanism:machineblock:8>, [[<enderio:item_alloy_ingot:9>, <minecraft:furnace>, <enderio:item_alloy_ingot:9>],[<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>], [<enderio:item_alloy_ingot:9>, <minecraft:furnace>, <enderio:item_alloy_ingot:9>]]);
