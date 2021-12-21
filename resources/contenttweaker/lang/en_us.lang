@@ -1,0 +1,24 @@
+#en_us
+
+item.contenttweaker.raw_copper.name=Raw Copper
+item.contenttweaker.raw_iron.name=Raw Iron
+item.contenttweaker.raw_gold.name=Raw Gold
+item.contenttweaker.raw_tin.name=Raw Tin
+item.contenttweaker.raw_silver.name=Raw Silver
+item.contenttweaker.raw_lead.name=Raw lead
+item.contenttweaker.raw_nickel.name=Raw Nickel
+item.contenttweaker.rubber.name=Rubber
+item.contenttweaker.dry_rubber.name=Dry Rubber
+item.contenttweaker.diorite_alloy.name=Diorite Alloy
+item.contenttweaker.copper_circuit.name=Copper Circuit
+item.contenttweaker.livingrock_circuit.name=Livingrock Circuit
+item.contenttweaker.sugar_clay.name=Sugar Clay
+item.contenttweaker.immature_pure_daisy.name=Immature Pure Daisy
+item.contenttweaker.immature_endoflame.name=Immature Endoflame
+item.contenttweaker.immature_hydroangeas.name=Immature Hydroangeas
+tile.contenttweaker.draconium_ore.name=Ender Draconium Ore
+tile.contenttweaker.base_machine.name=Base Machine
+tile.contenttweaker.diorite_alchemy.name=Diorite Alchemy
+tile.contenttweaker.diorite_livingwood.name=Diorite Livingwood
+fluid.osmium=Melt Osmium
+fluid.reactor=Melt Reactor

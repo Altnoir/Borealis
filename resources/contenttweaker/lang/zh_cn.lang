@@ -1,0 +1,24 @@
+#zh_cn
+
+item.contenttweaker.raw_copper.name= 粗铜
+item.contenttweaker.raw_iron.name=粗铁
+item.contenttweaker.raw_gold.name=粗金
+item.contenttweaker.raw_tin.name=粗锡
+item.contenttweaker.raw_silver.name=粗银
+item.contenttweaker.raw_lead.name=粗铅
+item.contenttweaker.raw_nickel.name=粗镍
+item.contenttweaker.rubber.name=橡胶
+item.contenttweaker.dry_rubber.name=干橡胶
+item.contenttweaker.diorite_alloy.name=闪长合金
+item.contenttweaker.copper_circuit.name=闪长电路板
+item.contenttweaker.livingrock_circuit.name=活石电路板
+item.contenttweaker.sugar_clay.name=含糖粘土
+item.contenttweaker.immature_pure_daisy.name=未成熟的白雏菊
+item.contenttweaker.immature_endoflame.name=未成熟的火红莲
+item.contenttweaker.immature_hydroangeas.name=未成熟的水锈球
+tile.contenttweaker.draconium_ore.name=末地龙矿
+tile.contenttweaker.base_machine.name=基础框架
+tile.contenttweaker.diorite_alchemy.name=闪长催化器
+tile.contenttweaker.diorite_livingwood.name=闪长活木
+fluid.osmium=熔融锇
+fluid.reactor=液态反应堆
